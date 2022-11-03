@@ -32,3 +32,35 @@
   padding: 1rem 2rem;
   border-radius: 2rem;
 }
+
+@media (max-width: 940px) {
+  .banner-header{
+    background-size: cover;
+  }
+  .banner-welcome-container{
+    width: 45rem;
+  }
+  .banner-welcome-container h1{
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .banner-welcome-container{
+    width: 35rem;
+  }
+  .banner-welcome-container h1{
+    line-height: 2rem;
+  }
+  .banner-welcome-container p{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-welcome-container{
+    width: 25rem;
+    padding: 1rem;
+  }
+}
