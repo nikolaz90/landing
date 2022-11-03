@@ -1,0 +1,34 @@
+.banner-header{
+  height: 98vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-welcome-container{
+  width: 56rem;
+  height: fit-content;
+}
+
+.banner-welcome-container h1{
+  font-size: 2rem;
+  color: white;
+  line-height: 5.8rem;
+}
+
+.banner-welcome-container p{
+  font-size: 1.2rem;
+  color: #ACADAD;
+  margin-bottom: 1.8rem;
+}
+
+.banner-welcome-container a{
+  color: white;
+  width: 4rem;
+  background-color: #1EDD88;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}

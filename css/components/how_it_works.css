@@ -1,0 +1,32 @@
+.how-it-works{
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-3-steps{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 15rem;
+  margin: 1rem 2.5rem;
+  padding: 1rem 1rem 2.5rem 1rem;
+}
+
+.card-3-steps img{
+  width: 9rem;
+  height: 9rem;
+}
+
+.card-3-steps h3{
+  font-size: 1rem;
+}
+
+.card-3-steps p{
+  margin-top: 1rem;
+  color: #AAAAAA;
+}
